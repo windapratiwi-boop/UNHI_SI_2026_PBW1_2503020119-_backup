@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Winda Dashboard | Form Biografi</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" rel="stylesheet">
+
+  <!-- AdminLTE CDN (FIX BIAR TERLOAD) -->
+  <link href="https://cdn.jsdelivr.net/npm/admin-lte@4.0.0/dist/css/adminlte.min.css" rel="stylesheet">
+
+</head>
+
+<body class="layout-fixed sidebar-expand-lg bg-body-tertiary">
+
+<div class="app-wrapper">
+
+  <!-- NAVBAR -->
+  <nav class="app-header navbar navbar-expand bg-body">
+    <div class="container-fluid">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" data-lte-toggle="sidebar" href="#">
+            <i class="bi bi-list"></i>
+          </a>
+        </li>
+        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- SIDEBAR -->
+  <aside class="app-sidebar bg-dark text-white">
+    <div class="sidebar-brand p-3">
+      <span class="fw-bold">Winda Dashboard</span>
+    </div>
+
+    <div class="sidebar-wrapper">
+      <ul class="nav flex-column p-2">
+        <li class="nav-item"><a href="#" class="nav-link text-white">Dashboard</a></li>
+        <li class="nav-item"><a href="#" class="nav-link text-white">Update Beranda</a></li>
+        <li class="nav-item"><a href="#" class="nav-link active">Update Biografi</a></li>
+        <li class="nav-item"><a href="#" class="nav-link text-white">Riwayat Pendidikan</a></li>
+      </ul>
+    </div>
+  </aside>
+
+  <!-- MAIN -->
+  <main class="app-main p-3">
+
+    <h3>Formulir Biografi Winda</h3>
+
+    <div class="card mt-3">
+      <div class="card-header">
+        <b>Update Biografi Anda</b>
+      </div>
+
+      <div class="card-body">
+        <form>
+
+          <div class="mb-3">
+            <label class="form-label">Nama Lengkap</label>
+            <input type="text" class="form-control" placeholder="Masukkan nama Winda">
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Biografi</label>
+            <textarea class="form-control" rows="4" placeholder="Contoh: Saya Winda, mahasiswa yang tertarik di bidang desain dan web development..."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">
+            Simpan Biografi
+          </button>
+
+        </form>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="app-footer text-center p-2">
+    © 2026 Winda Dashboard
+  </footer>
+
+</div>
+
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/admin-lte@4.0.0/dist/js/adminlte.min.js"></script>
+
+</body>
+</html>

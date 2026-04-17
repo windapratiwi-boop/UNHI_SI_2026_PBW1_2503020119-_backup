@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Winda Dashboard</title>
+
+  <!-- Fonts -->
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fontsource/source-sans-3@5.0.12/index.css">
+
+  <!-- Icons -->
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+  <!-- AdminLTE -->
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/admin-lte@4.0.0/dist/css/adminlte.min.css">
+</head>
+
+<body class="layout-fixed sidebar-expand-lg bg-body-tertiary">
+
+<div class="app-wrapper">
+
+  <!-- Navbar -->
+  <nav class="app-header navbar navbar-expand bg-body">
+    <div class="container-fluid">
+      <span class="navbar-brand">Winda Dashboard</span>
+    </div>
+  </nav>
+
+  <!-- Sidebar -->
+  <aside class="app-sidebar bg-body-secondary shadow" data-bs-theme="dark">
+    <div class="sidebar-brand">
+      <a href="#" class="brand-link">
+        <span class="brand-text fw-light">Winda Dashboard</span>
+      </a>
+    </div>
+
+    <div class="sidebar-wrapper">
+      <ul class="nav flex-column p-2">
+        <li class="nav-item"><a href="#" class="nav-link text-white">Dashboard</a></li>
+        <li class="nav-item"><a href="#" class="nav-link text-white">Update Beranda</a></li>
+        <li class="nav-item"><a href="#" class="nav-link text-white">Update Biografi</a></li>
+        <li class="nav-item"><a href="#" class="nav-link text-white">Data Pendidikan Winda</a></li>
+      </ul>
+    </div>
+  </aside>
+
+  <!-- Content -->
+  <main class="app-main p-4">
+
+    <h3>Data Pendidikan Winda</h3>
+
+    <table class="table table-bordered mt-3">
+      <thead>
+        <tr>
+          <th>No</th>
+          <th>Nama</th>
+          <th>Institusi</th>
+          <th>Jurusan</th>
+          <th>Masuk</th>
+          <th>Lulus</th>
+          <th>Status</th>
+          <th>Edit</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Winda Putri</td>
+          <td>SMA Negeri 1 Denpasar</td>
+          <td>IPA</td>
+          <td>2018</td>
+          <td>2021</td>
+          <td class="text-success">Lulus</td>
+          <td><button class="btn btn-primary">Manage</button></td>
+        </tr>
+
+        <tr>
+          <td>2</td>
+          <td>Winda Putri</td>
+          <td>Universitas Hindu Indonesia</td>
+          <td>Sistem Informasi</td>
+          <td>2022</td>
+          <td>-</td>
+          <td class="text-warning">Aktif</td>
+          <td><button class="btn btn-primary">Manage</button></td>
+        </tr>
+      </tbody>
+    </table>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="app-footer text-center p-2">
+    <strong>© 2026 Winda Dashboard</strong>
+  </footer>
+
+</div>
+
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/admin-lte@4.0.0/dist/js/adminlte.min.js"></script>
+
+</body>
+</html>
