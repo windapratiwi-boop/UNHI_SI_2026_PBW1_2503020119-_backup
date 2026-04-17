@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Efek jQuery</title>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+<button id="btn">Toggle Konten</button>
+<p id="teks">Ini adalah konten yang bisa disembunyikan</p>
+
+<script>
+$(function() {
+$("#btn").click(function() {
+$("#teks").slideToggle();
+});
+});
+</script>
+
+</body>
+</html>

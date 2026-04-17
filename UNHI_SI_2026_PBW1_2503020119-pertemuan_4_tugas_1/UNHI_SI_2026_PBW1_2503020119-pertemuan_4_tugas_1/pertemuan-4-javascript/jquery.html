@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Belajar jQuery</title>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+<h1 id="judul">Judul Lama</h1>
+<button id="btn">Klik Saya</button>
+
+<script>
+$(document).ready(function() {
+$("#btn").click(function() {
+$("#judul").text("Judul Baru dengan jQuery");
+});
+});
+</script>
+
+</body>
+</html>
